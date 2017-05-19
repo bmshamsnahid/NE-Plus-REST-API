@@ -1,12 +1,12 @@
 
 
-# BOILERPLATE = Node.js + Express.js 
+# REST-full API = Node.js + Express.js 
 Source code of the blog post.
 
 #### N.B. No Client side is provided; Try Unit Testing via postMan; To check the API;
 
 ## Setup
-- Create 2 databases `mainDatabase` and `testDatabase`
+- Create 2 databases `contactsBook` and `contactsBookTest`
 - Navigate to the root directory
 - `npm install` to install project dependencies
 - `nodemon` to run the app
@@ -22,10 +22,14 @@ Source code of the blog post.
 │   └── controllers/
 │       └── dummyController/
 │           └──index.js
+│       └── contactsController/
+│           └──index.js
 │       └── test/
 │           └── runner.js
 │   └── models/
 │       └── dummyModel/
+│           └── index.js
+│       └── contactsModel/
 │           └── index.js
 │   └── routes/
 │       └── endPoints
